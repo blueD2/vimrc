@@ -24,9 +24,10 @@ set noshowmode
 set laststatus=2
 set encoding=utf-8
 set scrolloff=5
+set linebreak
+set clipboard=unnamedplus
 
 filetype indent plugin on
-syntax on
 set expandtab
 set shiftwidth=2
 set softtabstop=2
