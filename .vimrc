@@ -31,8 +31,13 @@ set clipboard=unnamedplus
 
 filetype indent plugin on
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set ignorecase
+set smartcase
+set cursorline
+highlight CursorLine ctermbg=NONE
 
 let &t_ut=''
 
