@@ -5,6 +5,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
+Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
 colorscheme gruvbox
@@ -24,6 +25,7 @@ set noshowmode
 set laststatus=2
 set encoding=utf-8
 set scrolloff=5
+set paste
 set linebreak
 set clipboard=unnamedplus
 
