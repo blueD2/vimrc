@@ -37,7 +37,6 @@ set autoindent
 set ignorecase
 set smartcase
 set cursorline
-highlight CursorLine ctermbg=NONE
 
 let &t_ut=''
 
